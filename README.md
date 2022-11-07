@@ -9,7 +9,7 @@ Idea for pet project
 
 # Diagrams
 
-```mermaid.js
+```mermaid
 flowchart TD
     Microservice1 --> OAuthAgent1
     Microservice2 --> OAuthAgent2
@@ -22,7 +22,7 @@ flowchart TD
     OAuthAgent3 --> SimpleBackendHTMLApp
 ```
 
-```mermaid.js
+```mermaid
 sequenceDiagram
     User->>OAuthAgent1: I want to be authentificated
 
